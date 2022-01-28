@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding; 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(http://cdn.cnn.com/cnnnext/dam/assets/170214134009-st-louis-skyline.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale();
+}
+
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+
+}
+
+.contact, .content h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+
+.contact, .content p {
+
+  font-weight: 300;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
