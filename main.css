@@ -32,6 +32,8 @@ a {
   text-decoration: none;
 }
 
+
+
 header a:hover {
   background-color: inherit;
   color: #FB4646;
@@ -154,11 +156,15 @@ section {
   margin: none;
 }
 
-.social-media-container a:hover {
-  font-size: 1.15em;
-  transition: 300ms;
-  color: white;
+@media (min-width: 860px) {
+  .social-media-container a:hover {
+    font-size: 1.15em;
+    transition: 300ms;
+    color: white;
+  }
 }
+
+
 
 
 
@@ -313,12 +319,56 @@ section {
   /* transform: translate(-50%,-50%); */
 }
 
-@media  {
 
 
 
 
 
 
+@media (max-width: 860px) {
+
+  .full-page-container {
+    width: 100%;
+  }
+
+  header {
+    justify-content: center;
+  }
+
+  .left-container {
+    width: 100%;
+    height: 467px;
+  }
+
+  .nameCard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    background-color: #FB4646;
+    position: inherit;
+  }
+
+  .social-media-container a {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 30px;
+    border-radius: 100%;
+    background: white;
+    color: #FB4646;
+    font-size: 50px;
+  }
+
+  .profile-pic {
+    margin-top: -61px;
+  }
+
+  .right-container {
+    /* margin-top: 20px; */
+    width: 100%;
+  }
 
 }
