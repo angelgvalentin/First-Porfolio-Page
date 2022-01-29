@@ -244,8 +244,8 @@ section {
 }
 
 .header-links-container {
-  font-size: 15px;
-  width: 350px;
+  font-size: 25px;
+  width: auto;
 }
 
 .color-Btn-Container {
@@ -379,7 +379,7 @@ section {
   }
 
   header {
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .left-container {
@@ -417,6 +417,23 @@ section {
     /* margin-top: 20px; */
     width: 100%;
   }
+
+
+  .header-links-container {
+      font-size: 15px;
+      width: 180px;
+      margin-right: 0;
+
+  }
+
+  .color-Btn-Container {
+    width: 121px;
+  }
+
+
+  .btnCircle {
+    padding: 15px;
+}
 
 }
 
