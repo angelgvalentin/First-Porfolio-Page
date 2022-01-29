@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-  background: #383838;;
+  background: #383838;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
 }
@@ -95,7 +95,7 @@ h1 {
     color: #474747;
   }
 
-  button {
+  #submitBtn {
     background: #FB4646;
     width: 100px;
     color: white;
@@ -104,10 +104,10 @@ h1 {
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 8px 20px rgba(251,70,70,0.52);
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.20);
   }
 
-  button:hover {
+  #submitBtn:hover {
     padding: 5px;
   }
 
@@ -135,13 +135,13 @@ h1 {
 
   header {
     display: flex;
-    margin-top: 50px;
+    margin-top: 18px;
     margin-right: 200px;
     padding: 5px;
-    height: 40px;
+    height: 62px;
     width: 100%;
     box-sizing: border-box;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     background-color: inherit;
     font-size: 25px;
@@ -150,7 +150,47 @@ h1 {
     position: sticky;
     top: 0px;
     color: white;
+    background: #383838;
   }
+
+
+  .color-Btn-Container{
+    width: 200px;
+    margin-left: -18px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btnCircle {
+      border-radius: 50% ;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:3em;
+      height:3em;
+      font-size: 10px;
+      outline:none;
+      border: none;
+    }
+
+    .btnBackgroundRed{
+      background: #FB4646;
+    }
+    .btnBackgroundBlue{
+      background: #28D323;
+    }
+
+    .btnBackgroundGreen{
+      background: #2823D3;
+    }
+
+    .btnColor{
+      color: white;
+    }
+
+
+
 
   a {
     background-color: inherit;
@@ -207,7 +247,7 @@ h1 {
     background-color: inherit;
     align-items: space-around;
     justify-content: space-around;
-    font-size: 2.5em;
+    font-size: 3.5em;
     text-align: center;
     margin: 20px;
   }
@@ -242,10 +282,10 @@ h1 {
 
     header {
       display: flex;
-      margin-top: 20px;
+      margin-top: 0px;
       margin-bottom: 20px;
       padding: 5px;
-      height: 40px;
+      height: 60px;
       width: 100%;
       box-sizing: border-box;
       justify-content: center;

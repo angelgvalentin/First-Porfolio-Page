@@ -43,6 +43,41 @@ header a:hover {
 
 }
 
+.color-Btn-Container{
+  width: 200px;
+  margin-left: 28px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btnCircle {
+    border-radius: 50% ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:3em;
+    height:3em;
+    font-size: 10px;
+    outline:none;
+    border: none;
+  }
+
+  .btnBackgroundRed{
+    background: #FB4646;
+  }
+  .btnBackgroundBlue{
+    background: #28D323;
+  }
+
+  .btnBackgroundGreen{
+    background: #2823D3;
+  }
+
+  .btnColor{
+    color: white;
+  }
+
 
 
 p {
@@ -76,13 +111,16 @@ html {
   gap: 11px;
 }
 
+.header-links-container {
+  margin-right: 20px;
+}
 
 header {
   display: flex;
-  margin-top: 20px;
+  /* margin: 20px; */
   padding: 5px;
   height: 40px;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   background-color: inherit;
   font-size: 25px;
@@ -152,7 +190,7 @@ section {
   background-color: inherit;
 
   justify-content: space-around;
-  font-size: 1.6em;
+  font-size: 2.5em;
   margin: none;
 }
 
