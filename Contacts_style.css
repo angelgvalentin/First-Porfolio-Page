@@ -300,6 +300,21 @@ h1 {
 
     }
 
+    .color-Btn-Container{
+
+      margin-left: 12px;
+
+    }
+
+    .btnCircle {
+        padding: 10px;
+      }
+
+    .link-container-contactPAge {
+      width: 100%;
+      font-size: 20px;
+    }
+
     .social-media-container {
       display: flex;
       height: 40px;

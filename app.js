@@ -11,7 +11,7 @@ const changeWebsiteColorBlue = () => {
   $('.PB-container').children().css('color','#2823D3')
 
 
-  $('h1').css('color','#2823D3')
+  $('#contactH1').css('color','#2823D3')
   $('.contact-right').css('background','#2823D3')
     $('#submitBtn').css('background','#2823D3')
 
@@ -34,9 +34,10 @@ const changeWebsiteColorRed = () => {
 
   $('.PB-container').children().css('color','#FB4646')
 
-  $('h1').css('color','#FB4646')
+  $('#contactH1').css('color','#FB4646')
   $('.contact-right').css('background','#FB4646')
     $('#submitBtn').css('background','#FB4646')
+    
 
 
 
@@ -59,7 +60,7 @@ const changeWebsiteColorGreen = () => {
   $('.PB-container').children().css('color','#28D323')
 
 
-  $('h1').css('color','#28D323')
+  $('#contactH1').css('color','#28D323')
   $('.contact-right').css('background','#28D323')
   $('#submitBtn').css('background','#28D323')
 

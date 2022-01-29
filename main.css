@@ -243,9 +243,18 @@ section {
 
 }
 
+.header-links-container {
+  font-size: 19px;
+  width: 350px;
+}
 
+.color-Btn-Container {
+  margin-left: 2px;
+}
 
-
+.btnCircle {
+  padding: 15px;
+}
 
 .aboutME-bottom-container {
   display: flex;
