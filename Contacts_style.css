@@ -269,6 +269,15 @@ h1 {
 
       width: 100%;
       text-align: center;
+      /* font-size: .95em; */
+    }
+
+    .container p {
+      font-size: .90em;
+    }
+
+    .container h1 {
+      font-size: 1.5em;
     }
 
     .contact-box {
@@ -312,7 +321,7 @@ h1 {
 
     .link-container-contactPAge {
       width: 100%;
-      font-size: 20px;
+      font-size: 18px;
     }
 
     .social-media-container {
