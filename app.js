@@ -13,7 +13,9 @@ const changeWebsiteColorBlue = () => {
 
   $('#contactH1').css('color','#2823D3')
   $('.contact-right').css('background','#2823D3')
-    $('#submitBtn').css('background','#2823D3')
+  $('#submitBtn').css('background','#2823D3')
+  $('.carousel-images').css('background','#2823D3')
+  $('.carousel-button').css('color','#2823D3')
 
 
 
@@ -36,8 +38,10 @@ const changeWebsiteColorRed = () => {
 
   $('#contactH1').css('color','#FB4646')
   $('.contact-right').css('background','#FB4646')
-    $('#submitBtn').css('background','#FB4646')
-    
+  $('#submitBtn').css('background','#FB4646')
+  $('.carousel-images').css('background','#FB4646')
+  $('.carousel-button').css('color','#FB4646')
+
 
 
 
@@ -45,6 +49,7 @@ const changeWebsiteColorRed = () => {
 
   $('#btn2').css('border', 'none')
   $('#btn3').css('border', 'none')
+
 }
 
 
@@ -63,6 +68,9 @@ const changeWebsiteColorGreen = () => {
   $('#contactH1').css('color','#28D323')
   $('.contact-right').css('background','#28D323')
   $('#submitBtn').css('background','#28D323')
+  $('.carousel-images').css('background','#28D323')
+  $('.carousel-button').css('color','#28D323')
+
 
 
 
@@ -82,6 +90,60 @@ $(() => {
     $('#btn2').on('click', changeWebsiteColorGreen)
 
     $('#btn3').on('click', changeWebsiteColorBlue)
+
+
+
+
+
+
+
+
+
+    /////////////////////carousel below//////////
+
+
+
+
+
+
+
+
+    currentImgIndex = 0
+      numOfImages = $('.carousel-images').children().length - 1
+      $('.next').on('click', () => {
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+        if (currentImgIndex < numOfImages) {
+          currentImgIndex++
+        } else {
+          currentImgIndex = 0
+        }
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
+
+      })
+
+      $('.previous').on('click', () => {
+        $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+        if (currentImgIndex > 0) {
+          currentImgIndex--
+        } else {
+          currentImgIndex = numOfImages
+        }
+            $('.carousel-images').children().eq(currentImgIndex).css('display', 'block')
+
+      })
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

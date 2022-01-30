@@ -445,3 +445,49 @@ section {
   }
 
 }
+
+
+
+
+/* ======= CAROUSEL SECTION ======== */
+.carousel-container  {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.carousel-images {
+	width: 80%;
+	background: #FB4646;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	
+}
+.carousel-images img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+
+.carousel-images img:first-of-type {
+	display: block;
+}
+
+.carousel-button {
+	align-self: center;
+	background: white;
+	color: #FB4646;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+
+}
+.carousel-button:hover {
+	cursor: pointer;
+	background: #FB4646;
+	color: white;
+}
+
+.carousel-images img:first-of-type {
+
+}
