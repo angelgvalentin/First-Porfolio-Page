@@ -19,6 +19,8 @@ const changeWebsiteColorBlue = () => {
 
   $('.readmore-btn').css('background','#6666FF')
 
+  $('.modal-buttons').css('background','#6666FF')
+
 
 
   $('h4').css('color','#6666FF')
@@ -46,6 +48,8 @@ const changeWebsiteColorRed = () => {
   $('.carousel-button').css('color','#FB4646')
 
   $('.readmore-btn').css('background','#FB4646')
+
+  $('.modal-buttons').css('background','#FB4646')
 
     $('h4').css('color','#FB4646')
 
@@ -79,6 +83,8 @@ const changeWebsiteColorGreen = () => {
   $('.readmore-btn').css('background','#28D323')
 
   $('h4').css('color','#28D323')
+
+  $('.modal-buttons').css('background','#28D323')
 
 
 
@@ -165,9 +171,27 @@ $(() => {
 
 
 
+        /////////////////////modal for message sent///////////////
+      $(() => {
+    const $openBtn = $('#submitBtn')
+    const $modal = $('#modal')
+    const $closeBtn = $('#close')
 
+    const openModal = () => {
+        // $modal.css('display', 'block')
+        $modal.show()
+    }
 
+    const closeModal  = () => {
+        $modal.css('display','none')
+        // $modal.hide()
+    }
 
+    $openBtn.on('click', openModal)
+    $closeBtn.on('click', closeModal)
+
+    // setTimeout(openModal, 2000)
+})
 
 
 
