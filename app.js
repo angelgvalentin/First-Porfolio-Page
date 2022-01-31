@@ -21,6 +21,7 @@ const changeWebsiteColorBlue = () => {
 
   $('.modal-buttons').css('background','#6666FF')
 
+  $('#back2topBtn').css('background','#6666FF')
 
 
   $('h4').css('color','#6666FF')
@@ -50,6 +51,9 @@ const changeWebsiteColorRed = () => {
   $('.readmore-btn').css('background','#FB4646')
 
   $('.modal-buttons').css('background','#FB4646')
+
+$('#back2topBtn').css('background','#FB4646')
+
 
     $('h4').css('color','#FB4646')
 
@@ -86,6 +90,7 @@ const changeWebsiteColorGreen = () => {
 
   $('.modal-buttons').css('background','#28D323')
 
+    $('#back2topBtn').css('background','#28D323')
 
 
     /////////////////////Change Color Button border accoring to active color//////////
@@ -112,12 +117,7 @@ $(() => {
 
 
 
-    /////////////////////carousel below//////////
-
-
-
-
-
+    ///////////////////// PROJECTS carousel below//////////
 
 
 

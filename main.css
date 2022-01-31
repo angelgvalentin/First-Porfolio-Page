@@ -519,6 +519,13 @@ section {
 	display: block;
 }
 
+img {
+  width: 465px;
+  height: 372px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
 .carousel-button {
 	align-self: center;
 	background: white;
@@ -534,9 +541,7 @@ section {
 	color: white;
 }
 
-.carousel-images img:first-of-type {
 
-}
 
 li h4 {
   color: #FB4646;
