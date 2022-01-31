@@ -153,7 +153,7 @@ $(() => {
             $(this).text("Read Less");
 
           } else {
-            $(".readmore-btn").text("Read Less")
+            $(".readmore-btn").text("Read More")
           }
 
 
