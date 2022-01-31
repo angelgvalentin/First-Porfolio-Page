@@ -179,12 +179,12 @@ $(() => {
 
     const openModal = () => {
         // $modal.css('display', 'block')
-        $modal.show()
+        $modal.slideDown(500)
     }
 
     const closeModal  = () => {
-        $modal.css('display','none')
-        // $modal.hide()
+        // $modal.css('display','none')
+        $modal.slideUp(500)
     }
 
     $openBtn.on('click', openModal)
