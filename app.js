@@ -136,6 +136,23 @@ $(() => {
 
 
 
+          /////////////////////Read More/Less Button//////////
+
+      $(".readmore-btn").on('click', function(){
+          $(this).parent().toggleClass("showContent");
+
+
+          if ($(".readmore-btn").parent().hasClass("showContent")) {
+            $(this).text("Read Less");
+
+          } else {
+            $(".readmore-btn").text("Read Less")
+          }
+
+
+      });
+
+
 
 
 
