@@ -4,22 +4,25 @@
 
 const changeWebsiteColorBlue = () => {
 
-  $('.nameCard-container').css('background', '#2823D3')
+  $('.nameCard-container').css('background', '#6666FF')
 
-  $('.aboutME-top-container').css('border-bottom','5px solid #2823D3')
+  $('.aboutME-top-container').css('border-bottom','5px solid #6666FF')
 
-  $('.PB-container').children().css('color','#2823D3')
-
-
-  $('#contactH1').css('color','#2823D3')
-  $('.contact-right').css('background','#2823D3')
-  $('#submitBtn').css('background','#2823D3')
-  $('.carousel-images').css('background','#2823D3')
-  $('.carousel-button').css('color','#2823D3')
+  $('.PB-container').children().css('color','#6666FF')
 
 
+  $('#contactH1').css('color','#6666FF')
+  $('.contact-right').css('background','#6666FF')
+  $('#submitBtn').css('background','#6666FF')
+  $('.carousel-images').css('background','#6666FF')
+  $('.carousel-button').css('color','#6666FF')
+
+  $('.readmore-btn').css('background','#6666FF')
 
 
+
+  $('h4').css('color','#6666FF')
+    /////////////////////Change Color Button border accoring to active color//////////
   $('#btn3').css('border', '2px solid white')
 
   $('#btn1').css('border', 'none')
@@ -42,9 +45,11 @@ const changeWebsiteColorRed = () => {
   $('.carousel-images').css('background','#FB4646')
   $('.carousel-button').css('color','#FB4646')
 
+  $('.readmore-btn').css('background','#FB4646')
 
+    $('h4').css('color','#FB4646')
 
-
+    /////////////////////Change Color Button border accoring to active color//////////
   $('#btn1').css('border', '2px solid white')
 
   $('#btn2').css('border', 'none')
@@ -71,11 +76,13 @@ const changeWebsiteColorGreen = () => {
   $('.carousel-images').css('background','#28D323')
   $('.carousel-button').css('color','#28D323')
 
+  $('.readmore-btn').css('background','#28D323')
+
+  $('h4').css('color','#28D323')
 
 
 
-
-
+    /////////////////////Change Color Button border accoring to active color//////////
   $('#btn2').css('border', '2px solid white')
 
   $('#btn1').css('border', 'none')

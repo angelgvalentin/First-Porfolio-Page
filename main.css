@@ -265,7 +265,7 @@ section {
 
 .aboutME-top-container.showContent a.readmore-btn {
   background-color: white;
-  color: #FB4646;;
+  color: black;;
 }
 
 .header-links-container {
@@ -446,8 +446,8 @@ section {
 
 
   .header-links-container {
-      font-size: 15px;
-      width: 180px;
+      font-size: 12px;
+      width: 308px;
       margin-right: 0;
 
   }
@@ -516,4 +516,8 @@ section {
 
 .carousel-images img:first-of-type {
 
+}
+
+li h4 {
+  color: #FB4646;
 }
