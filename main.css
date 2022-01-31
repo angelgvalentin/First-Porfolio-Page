@@ -194,6 +194,26 @@ section {
   margin: none;
 }
 
+
+.back2top_btn_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#back2topBtn {
+  display: inline-block;
+  color: #fff;
+  background-color: #FB4646;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100px;
+}
+
+
 @media (min-width: 860px) {
   .social-media-container a:hover {
     font-size: 1.15em;
