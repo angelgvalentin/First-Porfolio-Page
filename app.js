@@ -2,6 +2,26 @@
 //   console.log('oops! I still have to link my jQuery properly!');
 // } else {console.log('I did it! I linked jQuery and this js file properly!')};
 
+
+
+////////scarlett solution for changing hover color
+///$link.css(`color`, `${scheme.color4}`)
+    // $icon.css(`color`, `${scheme.color4}`)
+    // $(`.link`).hover(function(){
+    //   $(this).css(`color`, `${scheme.color5}`);
+    // }, function(){
+    //   $(this).css(`color`, `${scheme.color4}`);
+    // });
+    // $(`.icon`).hover(function(){
+    //   $(this).css(`color`, `${scheme.color5}`);
+    // }, function(){
+    //   $(this).css(`color`, `${scheme.color4}`);
+    // });
+    //
+    //
+
+
+
 const changeWebsiteColorBlue = () => {
 
   $('.nameCard-container').css('background', '#6666FF')
